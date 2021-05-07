@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://www.crushpixel.com/big-static12/preview4/abstract-internet-connection-network-background-1042661.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    margin: 0 0 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 3em; color: black;
+    
+  }
+  
+  .sub-title {
+    margin-top: 1px;
+    font-size: 2em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    color: black;
+  }
+  h2 {
+    margin-top: 1px;
+    font-size: 35px;
+    text-align:center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: yellow;
+  }
+
+  .page-logo {
+    width: 400px;
+    background-color:black;
+    padding: 2px;
+  }
+
+
+  .alura-logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
